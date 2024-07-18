@@ -138,26 +138,27 @@ zokou(
         let menu = `${mono}Hello ${ms.pushName}
 ${timewisher(time)}
 
-≡𝙱𝚄𝙶 𝙼𝙴𝙽𝚄
-bug
-crash
-loccrash
-amountbug <amount>
-crashbug <number>
-pmbug <number>
-delaybug <number>
-trollybug <number>
-docubug <number>
-unlimitedbug <number>
-bombug <number>
-lagbug <number>
-gcbug <grouplink>
-delaygcbug <grouplink>
-trollygcbug <grouplink>
-laggcbug <grouplink>
-bomgcbug <grouplink>
-unlimitedgcbug <grouplink>
-docugcbug <grouplink>${mono}`;
+┏❏ ⌜ 𝐓𝐊𝐌-𝐁𝐎𝐓 𝐛𝐮𝐠 𝐦𝐞𝐧𝐮 ⌟  ❐
+┃⎔ bug
+┃⎔ crash
+┃⎔ loccrash
+┃⎔ amountbug <amount>
+┃⎔ crashbug 263XXXX
+┃⎔ pmbug 263XXXX
+┃⎔ delaybug 263XXXX
+┃⎔ trollybug 263XXXX
+┃⎔ docubug 263XXXX
+┃⎔ unlimitedbug 263XXXX
+┃⎔ bombug 263XXXX
+┃⎔ lagbug 263XXXX
+┃⎔ gcbug <grouplink>
+┃⎔ delaygcbug <grouplink>
+┃⎔ trollygcbug <grouplink>
+┃⎔ laggcbug <grouplink>
+┃⎔ bomgcbug <grouplink>
+┃⎔ unlimitedgcbug <grouplink>
+┃⎔ docugcbug <grouplink>
+┗❏${mono}`;
         switch (version) {
             case "v1":
                 {
@@ -1050,4 +1051,3 @@ zokou(
         await react(dest, zk, ms, "✅");
     }
 );
-
